@@ -1,11 +1,6 @@
 ﻿bool CheckDay(int day)
 {
-    if(day == 6)
-    {
-        return true;
-        
-    }
-    if(day == 7)
+    if(day == 6 || day == 7)
     {
         return true;
     }

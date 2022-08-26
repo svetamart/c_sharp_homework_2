@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите трехзначное число");
+﻿Console.WriteLine("Введите трехзначное число"); // СДЕЛАТЬ ПРОВЕРКУ, ЧТО ЧИСЛО ТРЕХЗНАЧНОЕ
 
 int n = Convert.ToInt32(Console.ReadLine());
 
