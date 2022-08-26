@@ -18,12 +18,12 @@ bool ValidateInput(string input)
 
 char FindThirdDigit(string number)
 {
+    if(number.Contains("-"))
+    {
+        return number[3];
+    }
     return number[2];
 }
-// if(number[0] == -)                  здесь хотела, чтобы программа выдавала третьий символ, если число отрицательное
-// {                                      т.е. под индексом 0 у него стоит минус. но ничего не вышло :(
-//     return number[3];
-// }
 
 bool isValid = ValidateInput(input);
 
